@@ -1,0 +1,9 @@
+.status {
+  color: white;
+}
+.onLine {
+  color: green;
+}
+.offLine {
+  color: red;
+}
