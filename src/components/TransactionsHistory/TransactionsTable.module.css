@@ -1,0 +1,33 @@
+.transactionHistory {
+  padding: 40px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.transactionHistory > thead {
+  color: white;
+  background-color: #1679f2;
+  cursor: default;
+}
+
+tbody {
+  background-color: #d1e1f4;
+  font-weight: 500;
+}
+
+tbody > tr:nth-child(even) {
+  background-color: #e6ebf0;
+}
+
+tbody > tr:hover {
+  background-color: #053f85;
+  color: white;
+  cursor: default;
+}
+
+th,
+td {
+  padding: 20px 40px;
+  font-size: 24px;
+  text-align: center;
+}
