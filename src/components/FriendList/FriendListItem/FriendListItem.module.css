@@ -1,5 +1,5 @@
 .status {
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 500;
 }
 .onLine {
@@ -15,12 +15,12 @@
   align-items: center;
   border: 1px solid black;
   background-color: #24232d;
-  border-radius: 8px;
-  padding: 40px;
+  border-radius: 4px;
+  padding: 24px;
 }
 
 .item:not(:last-child) {
-  margin-bottom: 20px;
+  margin-right: 12px;
 }
 
 .avatar {
@@ -29,7 +29,7 @@
 }
 
 .name {
-  margin-bottom: 15px;
-  font-size: 48px;
+  margin-bottom: 8px;
+  font-size: 32px;
   font-weight: 600;
 }

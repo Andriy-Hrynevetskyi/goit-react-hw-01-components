@@ -1,9 +1,9 @@
 .profile {
   background-color: rgb(0%, 0%, 0%, 0.8);
   color: rgb(255, 255, 255, 1);
-  padding: 20px;
+  padding: 12px;
   border-radius: 4px;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
 .description {
@@ -14,45 +14,46 @@
 }
 
 .avatar {
-  background-color: gray;
-
-  margin-bottom: 10px;
-  width: 100%;
+  display: block;
+  margin-bottom: 8px;
+  width: 320px;
   background-color: transparent;
   outline: 1px solid black;
 }
 
 .name {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
   font-weight: 700;
 }
 
-.tag {
-  margin-bottom: 10px;
-}
-
+.tag,
 .location {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
+  font-size: 16px;
 }
 
 .stats {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: gray;
-  padding: 10px;
   border-radius: 4px;
 }
 
 .stats > li {
+  width: 33%;
+  padding: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.stats > li:not(:last-child) {
+  border-right: 1px solid black;
+}
 
 .label {
-  font-size: 32px;
-  margin-bottom: 10px;
+  font-size: 16px;
+  margin-bottom: 8px;
 }
 .quantity {
-  font-size: 24px;
+  font-size: 16px;
 }
